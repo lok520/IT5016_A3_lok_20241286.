@@ -1,24 +1,24 @@
 # IT5016_A3_lok_20241286.
 
-Requisition System 
+ Requisition  System.
 
-1. Staff Information
-The system begins by collecting essential details from the staff member. Users are prompted to provide the date, their staff ID, and name. This ensures every requisition is correctly linked to the person submitting it.
+1.Staff Information
+The system will start by taking the necessary information about the staff member. The date, staff ID, and name of the user are asked. This will guarantee that all requisition is properly associated with the individual that makes the request.
 
-2. Item Requisition
-Staff can record the items they want to request. For each item, the program asks for the name and the cost. The total cost is calculated automatically, allowing multiple items to be processed in a single requisition.
+2.Item Requisition
+Employees are capable of documenting the requests they desire. The program will require the name and the cost of each item. All the cost is computed automatically and many items are possible to process at a time in each requisition.
 
-3. Approval Workflow
-The program evaluates the total cost to determine the approval status. Requisitions under $500 are automatically approved. Those between $500 and $1000 are marked as pending and require manager approval. Requests exceeding $1000 are automatically not approved.
+3.Approval Workflow
+The program is used to calculate the overall cost to identify the approval status. The threshold of requisitions less than 500 is automatically approved. The ones that come within the range of $500-1000 are identified as pending and need manager approval. Any request costing over 1000 is automatically disapproved.
 
-4. Manager Review
-Pending requisitions can be reviewed by the manager, who can approve or reject the request. Approved requisitions receive a unique approval reference number for tracking purposes.
+4.Manager Review
+The manager can review pending requisitions and approve or reject the request. Approved requisitions are assigned a special approval reference number so as to be tracked.
 
-5. Requisition Summary
-After processing, the program displays a clear summary that includes staff details, total cost, approval status, and the reference number. This ensures transparency and easy record-keeping.
+5.Requisition Summary
+Upon processing, a clear summary will be displayed in the program which will consist of staff details, total cost, approval status and the reference number. This guarantees transparency and facilitation of records keeping.
 
-6. Statistics Tracking
-The system keeps track of all requisitions, showing the total number submitted, approved, pending, and rejected. This feature provides a quick overview of overall activity and helps in decision-making.
+6.Statistics Tracking
+The system maintains a record of every requisition with the number of total ones submitted, approved, pending and rejected. This is a feature that enables fast overview of the activity in general and assists in decision-making.
 
-7. Educational Value
-While practical, the program also serves as a demonstration of fundamental Python concepts, including classes, methods, loops, conditionals, and user input. It is beginner-friendly and provides a realistic example of how an office requisition workflow can be automated.
+7.Educational Value
+Although it is practical, the program is also an illustration of basic Python principles, such as classes, methods, loops, conditionals, and input. It is easy to follow and gives a close-to-life illustration of how an office requisition process can be automated..
