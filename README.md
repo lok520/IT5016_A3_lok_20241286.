@@ -1,24 +1,27 @@
 # IT5016_A3_lok_20241286.
 
- Requisition  System.
+Requisition System Overview.
 
-1.Staff Information
-The system will start by taking the necessary information about the staff member. The date, staff ID, and name of the user are asked. This will guarantee that all requisition is properly associated with the individual that makes the request.
 
-2.Item Requisition
-Employees are capable of documenting the requests they desire. The program will require the name and the cost of each item. All the cost is computed automatically and many items are possible to process at a time in each requisition.
+The Requisition System is meant to automate and simplify the process of ordering office supplies or resources as well as being a realistic demonstration of the Python programming principles. It is highly structured and is based on the KISS (Keep It Simple, Stupid) principle, with its design being more simple, clear, and modular. This principle promotes that each component of the system fulfills one, clear-cut task without any redundant complexity that is simple to comprehend, maintain and have extensions.
 
-3.Approval Workflow
-The program is used to calculate the overall cost to identify the approval status. The threshold of requisitions less than 500 is automatically approved. The ones that come within the range of $500-1000 are identified as pending and need manager approval. Any request costing over 1000 is automatically disapproved.
+Staff Information.
+The system will start by collecting the necessary information concerning the staff member who will start the requisition. This will involve the date of request, staff ID and staff name. Since this step (gathering staff information) is kept to the bare minimum of gathering information, the program is in compliance with the Single Responsibility Principle and the KISS principle is followed by not binding this task with any other logic. Obtaining this information is important in order to make sure that every requisition is well linked with the person requesting, which is essential in accountability and record-keeping.
 
-4.Manager Review
-The manager can review pending requisitions and approve or reject the request. Approved requisitions are assigned a special approval reference number so as to be tracked.
+Item Requisition.
+Once staff information is received, the employees are allowed to write down the things they would desire. The program requests the name and the cost of each item and enables one to add several items to one requisition. The overall cost is automatically determined. The system is simple and easy to follow as entry and cost calculation has been isolated into one method, which is also an example of KISS. Input validation is also provided so as to have the right data entry without having to complicate the logic. The modular system allows it to be easy to add or change features of entering items in the future.
+Approval Workflow.
+The system considers the overall cost of the requisition to ascertain whether it will be approved or not. Any request below 500 would be automatically approved, requests between 500 to 1000 would be tagged as pending to be reviewed by management and above 1000 would automatically be rejected. This approach is a threshold-based approach which is easy and clear and sees the principle of KISS in action. The system does not overcomplicate the logic of decision making by keeping the automatic approval and pending approval separate.
 
-5.Requisition Summary
-Upon processing, a clear summary will be displayed in the program which will consist of staff details, total cost, approval status and the reference number. This guarantees transparency and facilitation of records keeping.
+Manager Review.
+The manager reviews pending requisitions and approves or rejects them. The approval of requisitions is given a special reference number to help it be tracked. The program is modular and simple to follow because of this separation of this managerial review and automatic approval and is another example of KISS in action.
 
-6.Statistics Tracking
-The system maintains a record of every requisition with the number of total ones submitted, approved, pending and rejected. This is a feature that enables fast overview of the activity in general and assists in decision-making.
+Requisition Summary.
+The program produces an understandable summary of the requisition, such as the staff information, the final cost, the condition, and the reference numbers. This approach is simple and may be easily read, which is KISS. The summary is also transparent and helps in keeping records.
 
-7.Educational Value
-Although it is practical, the program is also an illustration of basic Python principles, such as classes, methods, loops, conditionals, and input. It is easy to follow and gives a close-to-life illustration of how an office requisition process can be automated..
+Statistics Tracking.
+System also provides overall statistics, i.e. total requisitions, approved, pending and rejected requests. This option enables one to in a glance scan through office activity, which is useful in making a decision and the logic is easy.
+Educational Value.
+Besides serving a functional role, the program illustrates such technical concepts in Python as classes, methods, loops, conditionals, and input processing. It is designed in a KISS way and all the functions are devoted to one task, which made the program an excellent learning tool.
+
+All in all, the Requisition System is both practical and yet simple and yet it shows that office processes in real-life can be effectively automated with the code being understandable, modular, and readable.
